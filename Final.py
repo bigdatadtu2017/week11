@@ -10,13 +10,10 @@ from os import listdir
 import numpy as np
 import time
 import pickle
-import moviepy as mp
-from moviepy.editor import *
 from moviepy.editor import VideoFileClip
 from PIL import Image
 import dhash
 from sklearn.cluster import AgglomerativeClustering
-from sklearn.preprocessing import scale
 from sklearn.cluster import KMeans
 
 #%%
